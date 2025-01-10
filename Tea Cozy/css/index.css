@@ -1,0 +1,156 @@
+* {
+    font-family: Helvetica, sans-serif;
+    
+    
+}
+body {
+    max-width: 1300px;
+    margin: auto;
+    background-color: black;
+    opacity: 0.9;
+    color: seashell;
+}
+.header {
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    height: 50px;
+    margin-left: 10px;
+}
+.nav {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: underline;
+    font-size: 22px;
+    margin-left: 12px;
+}
+h2 {
+    font-size: 33px;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 22px;
+}
+p {
+    font-size: 22px;
+}
+.hero {
+    position: relative;
+    text-align: center;
+    
+}
+.heropic {
+    object-fit: cover;
+    height: 700px;
+    width: 1200px;
+    object-position: 50% 0%;
+}
+.herotext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -52%);
+    color: seashell;
+    background-color: black;
+    width: 1200px;
+    height: 100px;
+    line-height: 0.5;
+    padding-top: 4px;
+}
+.spacer {
+    position: relative;
+    bottom: 10%;
+}
+.spacer2 {
+    position: relative;
+    bottom: 1%;
+}
+.totmheader {
+    text-align: center;
+    padding-top: 50px;
+    line-height: 0.8;
+}
+figure {
+    margin: 0px 15px;
+}
+figcaption {
+
+}
+.teapics {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.teapic {
+    height: 200px;
+    width: 300px;
+}
+figcaption {
+    width: 300px;
+    text-align: center;
+    position: relative;
+    bottom: 3%;
+}
+figcaption h4 {
+    margin: 20px;
+}
+.locations {
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    display: block;
+}
+.locationstitle h2 {
+    position: absolute;
+    bottom: 375px;
+    left: 44%;
+}
+.locationspic {
+    object-fit: cover;
+    height: 500px;
+    width: 1200px; 
+    object-position: 50% 15%;
+}
+.Square {
+    width: 300px;
+    height: 260px;
+    color: seashell;
+    background-color: rgb(0, 0, 0);
+    margin: 20px;
+    align-items: center;
+    margin: 20px;
+    line-height: 1.6;
+}
+.addresses {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 22%;
+    left: 11%;
+}
+.contact {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    height: 200px;
+    margin-top: 10px;
+}
+.contacttitle {
+    margin: 0;
+}
+.email {
+    margin: 40px 0 20px 0;
+}
+.copyright {
+    margin-left: 20px;
+}
